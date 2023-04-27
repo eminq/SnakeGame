@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <canvas id="gameBoard" width="700px" height="400px"></canvas>
+    <button id="resetBtn">Reset</button>
+    <div class="info">
+        <div class="score"><img src="images/apple.png" width="50px" height="50px"> <span id="score">0</span> </div>
+        <div class="bestScore"><img src="images/trophy.png" width="50px" height="50px"> <span id="bestScore">0</span> </div>
+    </div>
+    
+    <div class="mode">
+        <button id="easy" class="btn active">easy</button>
+        <button id="medium" class="btn">medium</button>
+        <button id="hard" class="btn">hard</button>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
