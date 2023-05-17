@@ -14,19 +14,25 @@
 </head>
 <body>
 
-    <canvas id="gameBoard" width="700px" height="400px"></canvas>
-    <button id="resetBtn">Reset</button>
-    <div class="info">
-        <div class="score"><img src="images/apple.png" width="50px" height="50px"> <span id="score">0</span> </div>
-        <div class="bestScore"><img src="images/trophy.png" width="50px" height="50px"> <span id="bestScore">0</span> </div>
+    <a href="../allMyGames/home.html"><img class="icon" src="images/icon.png" alt="games"></a>
+
+    <div class="game">
+
+        <canvas id="gameBoard" width="700px" height="400px"></canvas>
+        <button id="resetBtn">Reset</button>
+        <div class="info">
+            <div class="score"><img src="images/apple.png" width="50px" height="50px"> <span id="score">0</span> </div>
+            <div class="bestScore"><img src="images/trophy.png" width="50px" height="50px"> <span id="bestScore">0</span> </div>
+        </div>
+        
+        <div class="mode">
+            <button id="easy" class="btn active">easy</button>
+            <button id="medium" class="btn">medium</button>
+            <button id="hard" class="btn">hard</button>
+        </div>
+
     </div>
-    
-    <div class="mode">
-        <button id="easy" class="btn active">easy</button>
-        <button id="medium" class="btn">medium</button>
-        <button id="hard" class="btn">hard</button>
-    </div>
-    
+
     <script src="app.js"></script>
 </body>
 </html>

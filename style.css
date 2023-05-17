@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: 'Press Start 2P', cursive;
+    background-color: black;
 }
-body{
+.game{
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -69,4 +70,19 @@ body{
 
 .mode .active {
     background-color: green;
+}
+
+.icon {
+    position: absolute;
+    margin-top: 85vh;
+    margin-left: 1vw;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.icon:hover {
+    margin-top: 89vh;
 }
